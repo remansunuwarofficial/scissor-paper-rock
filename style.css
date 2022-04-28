@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Square+Peg&display=swap');
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+h2, h3{
+    font-family: 'Square Peg', cursive;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+.button{
+    padding: 6px 20px;
+    background-color: rgb(29, 197, 29);
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(29, 197, 29);
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    font-size: 1.4rem;
+    transition: all 1s ease-out;
+}
